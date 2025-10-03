@@ -8,11 +8,11 @@ public class App {
         Random rand = new Random();
 
 
-        System.out.print("\nEnter the money you have in 'Euro': ");
+        System.out.println("\nEnter the money you have in 'Euro': ");
         int money =Integer.parseInt(in.nextLine());
 
         while (money > 0) {
-            System.out.print("\nAre you ready to play? (yes/no): ");
+            System.out.println("\nAre you ready to play? (yes/no): ");
             String inputYesNo = in.nextLine().toLowerCase();
 
             // Conditional Statement asking the player to play the game
