@@ -49,13 +49,13 @@ public class App {
             // Conditional Statements upon winning the game
 
             if (enteredNumber == 1) {
-                System.out.println("\nYou won! You've guessed one (7)! Total earnings, 3 euro");
+                System.out.println("\nYou won! You've guessed one (7)! Total earnings, 3 euro!");
                 money = money + 3;
             } else if (enteredNumber == 2) {
-                System.out.println("\nYou won! You've guessed two (7s)! Total earnings, 5 euro");
+                System.out.println("\nYou won! You've guessed two (7s)! Total earnings, 5 euro!");
                 money = money + 5;
             } else if (enteredNumber == 3) {
-                System.out.println("\nYou won! You've guessed three (7s)! Total earnings, 10 euro");
+                System.out.println("\nYou won! You've guessed three (7s)! Total earnings, 10 euro!");
                 money = money + 10;
             } else {
                 System.out.println("\nSorry, you lost the game!");
