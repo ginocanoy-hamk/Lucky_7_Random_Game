@@ -35,16 +35,20 @@ public class App {
             int number_1 = rand.nextInt(10) + 1;
             int number_2 = rand.nextInt(10) + 1;
             int number_3 = rand.nextInt(10) + 1;
+            int number_4 = rand.nextInt(10) + 1;
+            int number_5 = rand.nextInt(10) + 1;
 
             // Printing the random numbers
             System.out.println("\nHere are your numbers:");
-	        System.out.println(number_1 + " " + number_2 + " " + number_3);
+	        System.out.println(number_1 + " " + number_2 + " " + number_3 + " " + number_4 + " " + number_5);
 
            
             int enteredNumber = 0;
             if (number_1 == 7) enteredNumber++;
             if (number_2 == 7) enteredNumber++;
             if (number_3 == 7) enteredNumber++;
+            if (number_4 == 7) enteredNumber++;
+            if (number_5 == 7) enteredNumber++;
 
             // Conditional Statements upon winning the game
 
@@ -57,6 +61,12 @@ public class App {
             } else if (enteredNumber == 3) {
                 System.out.println("\nYou won! You've guessed three (7s)! Total earnings, 10 euro!");
                 money = money + 10;
+            } else if (enteredNumber == 4) {
+                System.out.println("\nYou won! You've guessed four (7s)! Total earnings, 10 euro!");
+                money = money + 15;
+            } else if (enteredNumber == 5) {
+                System.out.println("\nYou won! You've guessed five (7s)! Total earnings, 10 euro!");
+                money = money + 20;
             } else {
                 System.out.println("\nSorry, you lost the game!");
             }
